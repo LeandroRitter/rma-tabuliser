@@ -36,7 +36,7 @@ prog_version="0.0.1\n"
 ## FUNCTIONS ###################################################################
 
 usage() {                                 # Function: Print a help message.
-  printf "Usage: $script_name [ -d </path/to/rma6/dir/> ] [ -c <${class_list[*]}> ] -h -k -p -n [ -r ${taxonomy[*]} ] -s [ -t <NUM_THREADS> ] -u(assigned)  -v(erbose)  -V(ersion)" 1>&2 
+  printf "Usage: $script_name [ -d </path/to/rma6/dir/> ] [ -c <${class_list[*]}> ] -h -k -p -n [ -r ${taxonomy[*]} ] -s [ -t <NUM_THREADS> ] -u(assigned)  -v(erbose)  -V(ersion) [ -od </path/to/output_dir/> ]" 1>&2 
   # Will make output NEXT to rma6 file supplying -r will only export major ranks
 }
 
